@@ -1,0 +1,140 @@
+
+
+
+
+body{
+	margin-left: 8%;
+	margin-right:8%;
+	background-color: #FBCC7A;
+	
+	font-size: 1.2em;
+	padding-bottom:10px;
+	min-wid: 720px;
+}
+div#skipnav{
+	
+	position: relative;
+
+	padding:20px;
+	width: 12em; 
+	right:11.5%; 
+}
+div#banner{
+	background-color: #8A6B36;
+	padding-left: 12%;
+	padding-right:12%;
+}
+
+div.info{
+	padding-left: 42%;
+}
+
+div#main{
+	background-color:#FFD996;
+	clear: left;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+
+
+ul{
+	list-style-type: disc;
+	color:#162C40; /*black*/ 
+	font-family: "Arial Rounded MT Bold",Arial,sans-serif;
+	font-weight: 600;
+	padding: 20px;
+	padding-left:8%;
+	margin: 10px;
+}
+p{
+	font-size: 1.1em;
+	font-weight: normal;
+	text-align: left;
+	font-family: Trebuchet,verdana,sans-serif;
+	margin-bottom:10px;
+	padding:10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+p.contact{
+	text-align: center;
+}
+p.statement{
+	text-align: center;
+	font-size: 1.5em;
+	font-family: "Parchment", "Old English Text MT", cursive;
+}
+p.statement:first-letter{
+	font-size: 2em;
+	font-family:"Apple Chancery"," Bradley Hand", cursive;
+}
+figure{
+	width: 100%;
+	text-align: center;
+	font-size: 1em;
+}
+
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+
+/* navigation*/
+div#navigation ul{
+	
+	list-style-type: none;
+	font-size: 1.2em;
+	overflow: hidden;
+	margin:0px;
+	padding: 0px;
+	
+}			
+div#navigation li {
+	float: left;
+	width:16.66%;
+	padding-top:0px;
+	padding-bottom:10px;
+	
+}
+div#navigation a:link, div#navigation a:visited{
+	display: block;
+	background-color:#7AB8FA;
+	text-decoration: none;
+	text-align: center;
+	padding-top:20px;
+	padding-bottom:20px;
+	color:#162C40; 
+
+}
+
+div#navigation a:hover, div#navigation a:focus{
+	background-color:#326EAD; 
+	color:white;
+}
+
+/* Table */
+
+caption{
+	font-size: 2em;
+	border-bottom: 2px solid black;
+}
+table{
+	margin-left:12%;
+	margin-right: 12%;
+	border-collapse: collapse;
+	width: 76%;
+
+}
+th,td{
+	border-bottom: 2px solid black;
+  	padding: 8px;
+
+}
+tr:hover {
+	background-color:#FACB7A;
+}
